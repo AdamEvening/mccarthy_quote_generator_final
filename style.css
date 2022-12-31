@@ -1,0 +1,49 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    background-image: url("/img/desert1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 206, 206);
+    font-size: 2.8rem;
+}
+
+#quoteDisplay {
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 206, 206);
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 10rem auto;
+    background-color: #f44336;
+    color: rgb(219, 206, 206);
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+
+}
