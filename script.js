@@ -16,7 +16,15 @@ const quotes = [
     `There was nothin to set a man's mind at ease like wakin up in the morning and not havin to decide who you were.`
 ];
 
-console.log(quotes.length);
-let randomNumber = Math.floor((Math.random() * 15));
-console.log(randomNumber);
-console.log(quotes[randomNumber]);
+
+
+// Pull quote from array
+
+
+function newQuote() {
+    let randomNumber = Math.floor((Math.random() * 15));
+    let quote = quotes[randomNumber];
+    document.getElementById('quoteDisplay').innerHTML = quote;
+}
+
+
